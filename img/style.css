@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    height:100px ;
+    width: 100%;
+    background-image: url(/img/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+header{
+    font-family: 'Imprima', sans-serif;
+    height: 100px;
+    display: flex;
+    position: center;
+    gap: 110px;
+    align-items: center;
+}
+main{
+    height: 300px;
+    width: 100%;
+    gap: 500px;
+}
+footer{
+    height: 100px;
+    width: 100%;
+    gap: 1px;
+    display: flex;
+   
+}
+.logo{
+    font-family: 'Imprima', sans-serif;
+    width: 300px;
+    font-size: 30px;
+    margin-left: 20px;
+
+}
+p{
+    align-items: center;
+}
+.lupa{
+    margin-right: 10px;
+}
+.insta{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+.face{
+    margin-top: 70px;
+    margin-left: 20px;
+}
+.t{
+    margin-left: 10px;
+    margin-top: 70px;
+}
+nav{
+   margin-left: 1000px ;
+   margin-top: 50px;
+   align-items: center;
+   gap: 10px;
+}
+.t{
+    font-family: 'Gotu', sans-serif;
+    margin-left: 20px;
+}
+.titulo{
+    font-family: 'Imprima', sans-serif;
+    margin-left: 5px;
+    
+}
+.texto{
+    margin-left: 10px;
+    font-family: 'Imprima', sans-serif;
+    font-size: 20px;
+    align-items: center;
+    gap: 100px;
+    width:450px;
+}
+p:hover{
+    transform: scale(1.2);
+}
